@@ -1,0 +1,46 @@
+#header {
+    height: 300px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header #logo img {
+    height: 100%;
+    width: 100%;
+    margin-left:auto;
+    margin-right: auto;
+    padding: 4px 4px;
+}
+
+table thead {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: gold (172, 133, 107);
+}
+table thead a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: green (126, 82, 46);
+}
+
+table tbody {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+table tbody a {
+    text-decoration: none;
+    color: coral (225, 136, 0);
+}
+
+table tbody td img {
+    height: 40px;
+    width: 40px;
+    position: relative;
+}
+
+.contato a img {
+    height: 50px;
+    width: 50px;
+    position:relative;
+    float: right;
+    
+
+}
