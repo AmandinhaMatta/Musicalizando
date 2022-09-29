@@ -4,17 +4,18 @@ body, ul {
     padding: 0px;
 }
 a {
-    color: aqua;
-    text-decoration: none;
-    font-family: sans-serif;
+    color: black;
+    text-decoration:underline;
+    font-family:'Times New Roman', Times, serif;
 }
 a:hover {
     background: rgb(0, 0, 0, 0.05);
 }
 #logo img {
     float: left;
-    height: 35px;
-    position: relative;
+    height: 50px;
+    width: 100px;
+    position:static;
     top: 10px;
     left: 10px;
 }
@@ -23,12 +24,12 @@ a:hover {
     position: fixed; /* Adicionando Position e Z-Index */
     z-index: 90;
     box-sizing: border-box;
-    height: 70px;
+    height: 90px;
     padding: 1rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: #e7e7e7;
+    background: #fbff00;
 }
 #menu {
     display: flex;
