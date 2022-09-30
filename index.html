@@ -6,76 +6,106 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="./css/Style.css">
-    <title>.::Site de musica | Musicalizando ::.</title>
+    <title>.::Site de música | Musicalizando ::.</title>
 </head>
 <body>
-    <!--Aula 27/09/2022-->
-    <!--Início do Menu Responsivo-->
+    <!-- Aula 27/09/2022 -->
+    <!-- Início do Menu Responsivo -->
     <header id="header">
-        <a id="logo" href="index.html"><img src="./img/musica.jpg" alt="Logo Musicalizando"></a> 
+        <a id="logo" href="index.html"><img src="./img/musica.jpg" alt="Logo Musicalizando"></a>
         <nav id="nav">
-            <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
-                <span id="hamburguer" ></span>
+            <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false" >
+                <span id="hamburguer"></span>
             </button>
             <ul id="menu" role="menu">
-                <li> <a class="link menu" href="index.html">Home</a></li>
-                <li> <a class="link menu" href="cursos.html">Cursos</a></li>
-                <li> <a class="link menu" href="equipe.html">Equipe</a></li>
-                <li> <a class="link menu" href="contato.html">Contato</a></li>
+                <li> <a class="linkMenu" href="index.html">Home</a></li>
+                <li> <a class="linkMenu" href="equipe.html">Equipe</a></li>
+                <li> <a class="linkMenu" href="contato.html">Contato</a></li>
+                <li> <a class="linkMenu" href="cursos.html">Cursos</a></li>
             </ul>
-        </nav>
+        </nav> 
     </header>
-    <!--Fim do menu responsivo-->
+    <!-- Fim do Menu Responsivo -->
 
-    <!--Início do Carousel Página Principal-->
-    <div id="carouselExempleInterval" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner" >
-            <div class="carousel-item active" data-bs-ride="500">
-                <img src="./img/música 2.jpg" 
+    <!-- Início do Carousel Página Principal -->
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="2000">
+                <img src="./img/música color.jpg" 
+                class="d-block w-100"
+                alt="...">
+                />    
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="./img/piano-g8b3cf00c6_1280.jpg" 
+                class="d-block w-100"
+                alt="..."
+                />
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="./img/sheet-music-g7dd35a4f7_1280.jpg" 
                 class="d-block w-100"
                 alt="..."
                 />
             </div>
         </div>
-        <div class="carousel-inner" >
-            <div class="carousel-item active" data-bs-ride="500">
-                <img src="./img/música 2.jpg" 
-                class="d-block w-100"
-                alt="..."
-                />
-            </div>
-        </div>
-        <div class="carousel-inner" >
-            <div class="carousel-item active" data-bs-ride="500">
-                <img src="./img/música 2.jpg" 
-                class="d-block w-100"
-                alt="..."
-                />
-            </div>
-        </div>
-            <button 
-                class="carousel-control-prev"
-                data-bs-target="#carouselExempleInterval"
-                type="button"
-                data-bs-slide="prev"
-            >
-        <span class="carousel-control-prev-icon" aria-hidden="true" ></span>
-        <span class="visually-hidden">Anterior</span>
-        </button>
         <button 
+            class="carousel-control-prev"
+            data-bs-target="#carouselExampleInterval"
+            type="button"
+            data-bs-slide="prev"
+        >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span> 
+        </button>
+        <button
             class="carousel-control-next"
-            data-bs-target="#carouselExempleInterval"
+            data-bs-target="#carouselExampleInterval"
             type="button"
             data-bs-slide="next"
         >
-        <span class="carousel-control-next-icon" aria-hidden="true" ></span>
-        <span class="visually-hidden">Próximo</span>
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Próximo</span>    
         </button>
     </div>
-    <!--Fim do Carousel da Página Principal-->
+    <!-- Fim do Carousel da Página Principal -->
+    <!-- Início do Banner -->
+    <div class="section-banner-home">
+        <div class="container-fluid">
+            <div class="row m-0">
+                <div class="col-12 col-md-6">
+                    <figure>
+                        <img src="./img/400px_Super_Nintendo.jpg" class="img-fluid" alt="banner-home">
+                    </figure>
+                </div>
+                <div class="col-12 col-md-6">
+                    <section class="texto-banner d-nome d-md-block">
+                        <h1>Venha conhecer nosso diferencial!</h1>
+                        <p class="d-none d-md-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate optio, odit architecto laudantium commodi nam vero doloribus, obcaecati facere, ea exercitationem adipisci tempore. Laboriosam, consequuntur. Enim repellendus doloremque eum nemo?</p>
+                        <a href="musica.html">Saiba mais...</a>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fim Banner -->
+    <!--Início Área Destaque-->
+    <div class="destaque">
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <!-- Início da tag section com texto de destaque -->
+                <section > 
 
+                </section>
+
+            </div>
+
+        </div>
+
+    </div>
+    
 </body>
 
-<script type="text/javascript" src="./bootstrap/js/bootstrap.min.js" ></script>
+    <script type="text/javascript" src="./bootstrap/js/bootstrap.min.js"></script>
 
 </html>
