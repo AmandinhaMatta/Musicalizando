@@ -8,7 +8,7 @@ a {
     text-decoration:underline;
     font-family:'Times New Roman', Times, serif;
 }
-a:hover {
+ #header #menu a:hover {
     background: rgb(0, 0, 0, 0.05);
 }
 #logo img {
@@ -16,9 +16,10 @@ a:hover {
     height: 70px;
     width: 120px;
     position:static;
-    top: 10px;
+    top: 5px;
     left: 10px;
 }
+
 #header {
     width: 100%;
     position: fixed; /* Adicionando Position e Z-Index */
@@ -54,7 +55,7 @@ a:hover {
     height: 500px;
     padding: 50px;
     margin: 30px auto;
-    background-color: rgb(255, 217, 0);
+    background-color:#ffee00;
 }
 
 .section-banner-home img {
@@ -81,3 +82,32 @@ a:hover {
     padding: 4px 14px;
     font-size: 15px;
 }
+
+/* CSS Destaque */
+.destaque h2 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+.destaque p {
+    width: 77%;
+    text-align: center;
+    font-size: 14px;
+    margin: 30px auto;
+}
+.destaque figcaption {
+    font-size: 13px;
+    color: black;
+    text-decoration:none ;
+    font-weight:bold;
+}
+.destaque a {
+    justify-content: center;
+    display: flex;
+    text-decoration: none;
+    color: aqua;
+    font-size: 18px;
+    font-weight: bolder;
+    margin: 30px 0;
+}
+/* Fim CSS Destaque */
