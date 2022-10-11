@@ -137,7 +137,7 @@ a {
 .section-banner-home .texto-banner p {
     font-size: 15px;
     margin-bottom: 20px; /* Margem externa abaixo do texto */
-    color: rgb(255, 0, 0);
+    color: #fff;
 }
 
 .section-banner-home .texto-banner a {
@@ -165,6 +165,9 @@ a {
     color: black;
     text-decoration:none ;
     font-weight:bold;
+    width: fit-content;
+    background-color: moccasin;
+    margin-left: 65px;
 }
 .destaque a {
     justify-content: center;
@@ -176,6 +179,16 @@ a {
     margin: 30px 0;
 }
 /* Fim CSS Destaque */
+
+/* Início Saiba Mais */
+
+.col-12 a {
+    background-color: #ffc400;
+    width: 100px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 /* Início Css Novidades */
 
 .novidades {
