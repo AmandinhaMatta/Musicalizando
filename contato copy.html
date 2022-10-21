@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="./css/Style.css">
-    <script type="text/javascript" src=""></script>
     <link rel="shortcut icon" href="./img/ico/karaoke (2).ico">
     <title>.::Site de música | Musicalizando ::.</title>
 </head>
@@ -32,68 +31,31 @@
     <!--Início Form Contato-->
     <div class="contato">
         <div class="container">
-            <div class="row">
+            <div class="row d-flex justify-content-center">
                 <!-- Início da tag section com texto de contato-->
                 <section class="col-12" >
                     <h2>Entre em contato conosco!</h2>
                     <p>Para dúvidas, elogios e reclamações</p> 
                 </section>
                 <!-- Fim da tag section com o texto de contato-->
-                <!--Inicio formulário-->
-                <div class="col-md-6">
-                    <div class="well well-sm">
-                        <form class="form-horizontal" method="post">
-                            <fieldset>
-                                <legend class="text-left header">Preencha suas informações</legend>
-                                <div class="form-group">
-                                    <div class="col-md-10 col-md-offset-1">
-                                        <input  id="fname" name="name" type="text" placeholder="Insira seu primeiro nome" class="form-control" required>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <div class="col-md-10 col-md-offset-1">
-                                        <input  id="lname" name="name" type="text" placeholder="Insira seu último nome" class="form-control" required>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <div class="col-md-10 col-md-offset-1">
-                                        <input  id="email" name="name" type="email" placeholder="Insira seu email" class="form-control" required>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <div class="col-md-10 col-md-offset-1">
-                                        <input  id="phone" name="phone" type="text" placeholder="Insira seu telefone" class="form-control" required>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <div class="col-md-10 col-md-offset-1">
-                                        <textarea id="message" name="message" placeholder="Insira sua mensagem e retornaremos em até dois dias úteis" class="form-control" row="7" required></textarea>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <div class="col-md-12 text-center">
-                                        <button type="submit" class="formbutton">Enviar</button>
-                                    </div>
-                                </div>
-                            </fieldset>
-                        </form>
+                <!-- Início Imagem 1-->
+                <div class="col-md-4">
+                    <div class="form_main">
+                        <h4 class="heading"><strong>Contato</strong>Expresso <span></span></h4>
+                        <div class="form">
+                            <form action="#" method="post" id="contactFrm" name="contactFrm">
+                                <input type="text" required="" placeholder="Por favor insira seu nome completo" value="" name="name" class="txt">
+                                <input type="text" required="" placeholder="Por favor insira seu telefone" value="" name="mob" class="txt">
+                                <input type="text" required="" placeholder="Por favor insira seu email" value="" name="email" class="txt">
+
+                                <textarea placeholder="Insira sua mensagem" name="mess" type="text" class="text_3"></textarea>
+                                <input type="submit" value="submit" name="submit" class="txt2">
+                            </form>
+                        </div>
                     </div>
                 </div>
                 <!--Fim do formulário-->
-                <div class="col-md-6">
-                    <div>
-                        <div class="panel panel-defaut">
-                            <div class="text-center header">Onde estamos localizados</div>
-                            <div class="panel-body text-center">
-                                <h4>Endereço
-                                    <div>Avenida do Prado, 123 <br />Centro, São Paulo - SP - CEP:12345-000</div>
-                                    
-                                </h4>
-
-                            </div>
-                        <div id="map1" class="map"></div>
-                    </div>
-                </div>
+                
 
         
                     <!-- início footer -->
@@ -151,11 +113,6 @@
 </body>
 
     <script type="text/javascript" src="./bootstrap/js/bootstrap.min.js"></script>
-
     <script  type="text/javascript" src="./js/script_menu.js"></script>
-
-    <script src="https://maps.google.com/maps/api/js?sensor=false"></script>
-
-    <script type="text/javascript" src="./js/map.js"></script>
 
 </html>
