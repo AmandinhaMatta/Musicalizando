@@ -142,6 +142,7 @@ a {
 
     .form_main {
         width: 100%;
+        background-color: #000000;
     }
     .form_main h4 {
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -150,11 +151,14 @@ a {
         margin-bottom: 15px;
         margin-top: 20px;
         text-transform: uppercase;
+        background-color: #000000;
+
     }
     .heading {
         border-bottom: 1px solid #ffc400;
         padding-bottom: 9px;
         position: relative;
+        background-color: #000000;
     }
     .heading span {
         background: #ffee00 none repeat scroll 0 0;
@@ -163,21 +167,25 @@ a {
         left: 0;
         position: absolute;
         width: 75px;
+        background-color: #000000;
     }
     .form {
         border-radius: 7px;
         padding: 6px;
+        background-color: #000000;
     }
     .txt[type="text"] {
         border: 1px solid #ccc;
         margin: 10px 0;
         padding: 10px 0 10px 5px;
         width: 100%;
+        background-color: #000000;
     }
     .txt_3[type="text"] {
         margin: 10px 0 0;
         padding: 10px 0 10px 5px;
         width: 100%;
+        background-color: #000000;
     }
     .formbutton[type="submit"] {
         -moz-box-shadow: inset 0px 1px 0px 0px #000000;
@@ -195,18 +203,22 @@ a {
         padding: 0;
         text-transform: uppercase;
         width: 30%;
+        background-color: cornsilk;
     }
     .formbutton:hover {
         background-color: orange;
+        background-color: #000000;
     }
     .formbutton:active {
         position: relative;
         top: 1px;
+        background-color: #000000;
     }
     .txt2:hover {
         background: #fff none repeat scroll 0 0;
         color: aquamarine;
         transition: all 0.5s ease 0s;
+        background-color: #000000;
     }
     /*Inicio mapa*/
     .map {
@@ -393,6 +405,7 @@ a {
 
 .form_main {
     width: 100%;
+    background-color: #000000;
 }
 .form_main h4 {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -401,11 +414,13 @@ a {
     margin-bottom: 15px;
     margin-top: 20px;
     text-transform: uppercase;
+    background-color: #000000;
 }
 .heading {
     border-bottom: 1px solid #fcc40b;
     padding-bottom: 9px;
     position: relative;
+    background-color: #000000;
 }
 .heading span {
     background: #ffa600 none repeat scroll 0 0;
@@ -414,21 +429,25 @@ a {
     left: 0;
     position: absolute;
     width: 75px;
+    background-color: #000000;
 }
 .form {
     border-radius: 7px;
     padding: 6px;
+    background-color: #000000;
 }
 .txt[type="text"] {
     border: 1px solid #ccc;
     margin: 10px 0;
     padding: 10px 0 10px 5px;
     width: 100%;
+    background-color: #000000;
 }
 .text_3[type="text"] {
     margin: 10px 0 0;
     padding: 10px 0 10px 5px;
     width: 100%;
+    background-color: #000000;
 }
 .formbutton[type="submit"] {
     -moz-box-shadow: inset 0px 1px 0px 0px #fcec0b;
@@ -446,19 +465,26 @@ a {
     padding: 0;
     text-transform: uppercase;
     width: 30%;
+    background-color: cornsilk;
 }
 
 .txt2:hover {
     background: #fff none repeat scroll 0 0;
     color: #ffc400;
     transition: all 0.5s ease 0s;
+    background-color: #000000;
 }
 /*Fim CSS cont. */
 /*Inicio mapa */
 
 .map {
+    /*min-width: 300px; min-height: 300px */
     min-width: 300px;
     min-height: 300px;
     width: 100%;
     height: 100%;
+}
+.map iframe {
+    width: 100%;
+    right: 100%;
 }
